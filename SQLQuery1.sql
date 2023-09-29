@@ -33,7 +33,6 @@ group by continent
 order by PercentPopulationDeaths desc
 
 -- GLOBAL NUMBERS
-
 select  date, sum(new_cases)as NewCasesPerDay, sum(cast(new_deaths as int))as NewDeathsPerDay, sum(cast(new_deaths as int))/sum(new_cases)*100 as NewDeathsPercent
 from PortfolioProject.dbo.CovidDeaths
 Where continent is not null
@@ -42,14 +41,13 @@ group by date
 order by 3
 
 
--- Total Population vs Vaccinations using CTE
-
+-- TOTAL POPULATION VS VACCINATIONS USING CTE
+	
 with popvsvac (Continent, Location,  Population, NewVaccinations, RollingPeopleVaccinated)
 as
 (
 select dea.continent, dea.location,  dea.population, vac.new_vaccinations,
 sum(cast(vac.new_vaccinations as int))over (partition by dea.location order by dea.date) as RollingPeopleVaccinated
-
 from PortfolioProject.dbo.CovidDeaths dea
 Join PortfolioProject.dbo.CovidVaccinations vac
       on dea.location = vac.location
@@ -62,7 +60,8 @@ Join PortfolioProject.dbo.CovidVaccinations vac
 	  from popvsvac
 
 
-
+-- TOTAL POPULATION VS VACCINATIONS USING Temp table
+	
 DROP Table if exists #TotalPopVac
 CREATE TABLE #TotalPopVac
 (
@@ -75,7 +74,6 @@ RollingPeopleVaccinated numeric
 insert into #TotalPopVac
 select dea.continent, dea.location,  dea.population, vac.new_vaccinations,
 sum(cast(vac.new_vaccinations as int))over (partition by dea.location order by dea.date) as RollingPeopleVaccinated
-
 from PortfolioProject.dbo.CovidDeaths dea
 Join PortfolioProject.dbo.CovidVaccinations vac
       on dea.location = vac.location
@@ -86,10 +84,10 @@ Join PortfolioProject.dbo.CovidVaccinations vac
 	  select *, (RollingPeopleVaccinated)/Population* 100 as 
 	  from #TotalPopVac
 
-	-- Percentage of max people vaccinated 
 	
-	WITH VaccinationData AS (
-    SELECT
+-- ## PERCENTAGE OF MAX PEOPLE VACCINATED
+WITH VaccinationData AS (
+SELECT
         dea.continent,
         dea.location,
         dea.population,
@@ -102,7 +100,6 @@ Join PortfolioProject.dbo.CovidVaccinations vac
     WHERE
         dea.continent IS NOT NULL AND vac.new_vaccinations IS NOT NULL
 )
-
 SELECT
     vd.continent,
     vd.location,
