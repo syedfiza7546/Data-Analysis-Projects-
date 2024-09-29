@@ -1,4 +1,4 @@
-# -PortfolioProject-
+# -COVID-19 Data Analysis Project-
 # COVID-19 Data Analysis SQL Queries
 
 This repository contains a set of SQL queries for analyzing COVID-19 data using the PortfolioProject database. The queries provide insights into cases, deaths, vaccinations, and population statistics.
