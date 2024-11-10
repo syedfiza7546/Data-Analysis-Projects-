@@ -12,7 +12,7 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
 
 ### SQL Projects
 - **Project 1: COVID-19 Data Analysis**
-  - **File**: `SQLQuery1.sql`
+  - **File**: `COVID-SQL-Query.sql`
   - **Description**: SQL queries for analyzing COVID-19 data, including metrics like new cases, deaths, vaccination trends, and population insights across different locations, continents, and globally.
   - **Key Skills**: Data extraction, aggregation, filtering, CTEs, and advanced SQL queries.
 
