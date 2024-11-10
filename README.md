@@ -16,10 +16,11 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
   - **Description**: SQL queries for analyzing COVID-19 data, including metrics like new cases, deaths, vaccination trends, and population insights across different locations, continents, and globally.
   - **Key Skills**: Data extraction, aggregation, filtering, CTEs, and advanced SQL queries.
 
-- **Project 2: Tableau Portfolio Project SQL Queries**
+### Tableau Projects
+- **Project 1: COVID-19 Data Analysis**
   - **File**: `Tableau Portfolio Project SQL Queries.sql`
-  - **Description**: A set of SQL queries used for preparing data for a Tableau portfolio project, focusing on sales and performance metrics.
-  - **Key Skills**: SQL querying, data aggregation, performance analysis, and preparing datasets for Tableau.
+  - **Description**: SQL queries used for analyzing COVID-19 data, focusing on total cases, deaths, infection rates, and population insights for different locations.
+  - **Key Skills**: Data aggregation, filtering, and ranking using SQL queries to support Tableau visualizations.
 
 ### Tableau Projects
 - **Project 1: Tableau Portfolio Dashboard**
