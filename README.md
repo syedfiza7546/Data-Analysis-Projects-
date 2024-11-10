@@ -22,12 +22,8 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
   - **Description**: SQL queries used for analyzing COVID-19 data, focusing on total cases, deaths, infection rates, and population insights for different locations.
   - **Key Skills**: Data aggregation, filtering, and ranking using SQL queries to support Tableau visualizations.
 
-### Tableau Projects
-- **Project 1: Tableau Portfolio Dashboard**
-  - **Description**: A Tableau dashboard project visualizing key business metrics and trends with interactive filters and dynamic visualizations.
-  - **Key Skills**: Tableau dashboard design, interactive filters, data connections, and storytelling with data.
 
 ## Technologies & Tools Used
 - **Power BI**: Data visualization, DAX, Power Query
-- **SQL**: MySQL, PostgreSQL, SQL Server, queries for COVID and Tableau portfolio
+- **SQL**: MySQL, PostgreSQL, queries for COVID
 - **Tableau**: Tableau Desktop, interactive visualizations, storytelling
