@@ -24,8 +24,8 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
 
 ### Python Project
 
-- **Project 1: Data Analysis - Salary Dataset**
-  - **File**: salary_analysis.py
+- **Project 1: Data Analysis - San Francisco Salary Dataset**
+  - **File**: `SF_Salaries.ipynb`
   - **Description**: A Python project that loads, cleans, and performs data analysis on the Salaries dataset. It includes tasks like handling missing values, dropping irrelevant columns, and generating summary statistics for further analysis.
   - **Key Skills**: Data loading and cleaning, handling missing data, data analysis using Pandas, and generating descriptive statistics.
 
