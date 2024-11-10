@@ -22,8 +22,16 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
   - **Description**: SQL queries used for analyzing COVID-19 data, focusing on total cases, deaths, infection rates, and population insights for different locations.
   - **Key Skills**: Data aggregation, filtering, and ranking using SQL queries to support Tableau visualizations.
 
+### Python Project
+
+- **Project 1: Data Analysis - Salary Dataset**
+  - **File**: salary_analysis.py
+  - **Description**: A Python project that loads, cleans, and performs data analysis on the Salaries dataset. It includes tasks like handling missing values, dropping irrelevant columns, and generating summary statistics for further analysis.
+  - **Key Skills**: Data loading and cleaning, handling missing data, data analysis using Pandas, and generating descriptive statistics.
+
 
 ## Technologies & Tools Used
 - **Power BI**: Data visualization, DAX, Power Query
 - **SQL**: MySQL, PostgreSQL, queries for COVID
 - **Tableau**: Tableau Desktop, interactive visualizations, storytelling
+- **Python**: Data loading and cleaning, Pandas, NumPy, data analysis
