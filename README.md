@@ -22,7 +22,7 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
   - **Description**: SQL queries used for analyzing COVID-19 data, focusing on total cases, deaths, infection rates, and population insights for different locations.
   - **Key Skills**: Data aggregation, filtering, and ranking using SQL queries to support Tableau visualizations.
 
-### Python Project
+### Python Projects
 
 - **Project 1: Data Analysis - San Francisco Salary Dataset**
   - **File**: `SF_Salaries.ipynb`
