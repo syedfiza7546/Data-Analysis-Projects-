@@ -7,39 +7,32 @@
     - **Data Analysis with Pandas**: Descriptive statistics are generated using `data1.describe()` for deeper insights into the dataset.
     - **Removing Irrelevant Columns**: Unnecessary columns like `Id`, `Notes`, `Agency`, and `Status` are dropped to simplify analysis and focus on the essential data.
     
-    #### Code Breakdown:
+   #### Code Snippet:
 
-    ```python
-    import pandas as pd
+  ```python
+  import pandas as pd
 
-    # Load the dataset
-    data1 = pd.read_csv('/content/Salaries.csv')
+  # Load the dataset
+  data1 = pd.read_csv('/content/Salaries.csv')
 
-    # Display a warning if columns have mixed types
-    <ipython-input-4-9bc0313fa97f>:1: DtypeWarning: Columns (3,4,5,6,12) have mixed types. Specify dtype option on import or set low_memory=False.
-    data1 = pd.read_csv('/content/Salaries.csv')
+  # Display a warning if columns have mixed types
+  data1 = pd.read_csv('/content/Salaries.csv')
 
-    # Show the first few rows of the data
-    data1
+  # Show the first few rows of the data
+  data1
 
-    # Check the structure of the dataset
-    data1.info()
+  # Check the structure of the dataset
+  data1.info()
 
-    # Count missing values in each column
-    data1[data1.isnull()].count()
+  # Count missing values in each column
+  data1[data1.isnull()].count()
 
-    # Display the columns in the dataset
-    data1.columns
+  # Drop irrelevant columns
+  data1 = data1.drop(['Id', 'Notes', 'Agency', 'Status'], axis=1)
 
-    # Drop irrelevant columns
-    data1 = data1.drop(['Id', 'Notes', 'Agency', 'Status'], axis=1)
-
-    # Show the updated columns
-    data1.columns
-
-    # Display descriptive statistics for the data
-    data1.describe(include='all')
-    ```
+  # Display descriptive statistics for the data
+  data1.describe(include='all')
+```
 
     #### Key Steps in the Code:
     1. **Data Loading**: The dataset `Salaries.csv` is loaded into a Pandas DataFrame using `pd.read_csv()`. A warning may appear if some columns have mixed types, which can be handled by specifying the correct data types.
