@@ -11,10 +11,10 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
   - **Key Skills**: Data loading and cleaning, interactive visualizations, DAX calculations, and trend analysis.
 
 ### SQL Projects
-- **Project 1: COVID Data Analysis**
+- **Project 1: COVID-19 Data Analysis**
   - **File**: `SQLQuery1.sql`
-  - **Description**: A SQL project analyzing COVID-19 data, extracting insights like infection rates, recovery rates, and trends across different regions.
-  - **Key Skills**: SQL querying, data aggregation, JOIN operations, and trend analysis.
+  - **Description**: SQL queries for analyzing COVID-19 data, including metrics like new cases, deaths, vaccination trends, and population insights across different locations, continents, and globally.
+  - **Key Skills**: Data extraction, aggregation, filtering, CTEs, and advanced SQL queries.
 
 - **Project 2: Tableau Portfolio Project SQL Queries**
   - **File**: `Tableau Portfolio Project SQL Queries.sql`
