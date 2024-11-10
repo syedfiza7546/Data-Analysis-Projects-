@@ -58,4 +58,4 @@ This repository contains a set of SQL queries for analyzing COVID-19 data using 
 To reproduce this initial exploration, follow these steps:
 
 1. **Clone the repository**:
-   ``` git clone https://github.com/syedfiza7546/-COVID-19-Data-Analysis-Project-.git
+ git clone https://github.com/syedfiza7546/-COVID-19-Data-Analysis-Project-.git
