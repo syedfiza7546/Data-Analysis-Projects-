@@ -34,8 +34,8 @@
   data1.describe(include='all')
 ```
 
-    #### Key Steps in the Code:
-    1. **Data Loading**: The dataset `Salaries.csv` is loaded into a Pandas DataFrame using `pd.read_csv()`. A warning may appear if some columns have mixed types, which can be handled by specifying the correct data types.
+   #### Key Steps in the Code:
+   1. **Data Loading**: The dataset `Salaries.csv` is loaded into a Pandas DataFrame using `pd.read_csv()`. A warning may appear if some columns have mixed types, which can be handled by specifying the correct data types.
     2. **Exploring the Data**: The code uses `.info()` to check the structure and datatypes of the dataset and `.isnull().count()` to check for any missing values in the dataset.
     3. **Data Cleaning**: The code drops unnecessary columns (`Id`, `Notes`, `Agency`, `Status`) to streamline the data and focus on the relevant fields for analysis.
     4. **Descriptive Statistics**: The `.describe()` method generates a summary of the dataset, which includes count, mean, standard deviation, and other descriptive statistics for each column.
