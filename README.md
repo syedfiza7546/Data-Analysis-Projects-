@@ -35,3 +35,7 @@ Welcome to my Data Analytics Projects repository! This repository contains vario
 - **SQL**: MySQL, PostgreSQL, queries for COVID
 - **Tableau**: Tableau Desktop, interactive visualizations, storytelling
 - **Python**: Data loading and cleaning, Pandas, NumPy, data analysis
+
+![image.webp](youtube_growth_analysis/image.webp)
+
+
