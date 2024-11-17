@@ -49,8 +49,6 @@ USE youtube_growth_analysis;
 ## Step 3: Insert Sample Data
 Use the provided SQL queries to insert mock data into the database for testing.
 
-## Step 4: Run SQL Queries
-Run the SQL queries to analyze the data and visualize insights:
 
 ## Step 4: Run SQL Queries
 
