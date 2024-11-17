@@ -84,13 +84,6 @@ sample_data = data.sample(frac=0.5)
 data.replace('?', pd.NA, inplace=True)
 ```
 
-### Example: Analyzing Age Distribution
-```python
-# Distribution of Age
-data['age'].plot(kind='hist', bins=20, title='Age Distribution')
-plt.show()
-```
-
 ### Example: Dropping Columns
 ```python
 # Drop unnecessary columns
