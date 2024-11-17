@@ -52,11 +52,25 @@ Use the provided SQL queries to insert mock data into the database for testing.
 ## Step 4: Run SQL Queries
 Run the SQL queries to analyze the data and visualize insights:
 
-YouTube Growth Analysis
-Income Breakdown
-Top Video Performance
-Expense-to-Income Ratio
-Upload Frequency and Growth Correlation
+## Step 4: Run SQL Queries
+
+Run the SQL queries to analyze the data and visualize insights:
+
+1. **YouTube Growth Analysis**  
+   Use SQL queries to analyze YouTube growth trends, focusing on metrics like video count, subscriber growth, and view count.
+
+2. **Income Breakdown**  
+   Calculate the total income and percentage contribution from different income streams, including AdSense, sponsorships, affiliate income, and courses.
+
+3. **Top Video Performance**  
+   Analyze which videos are performing the best based on views, likes, and comments.
+
+4. **Expense-to-Income Ratio**  
+   Compare monthly expenses to income to calculate the ratio of expenses over income and analyze profitability.
+
+5. **Upload Frequency and Growth Correlation**  
+   Investigate if more frequent uploads correlate with faster growth in terms of subscribers and views.
+
 
 ## Step 5: Visualize Data
 The Python script visualize.py loads data from CSV files exported from the SQL queries and visualizes the results using matplotlib.
