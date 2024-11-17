@@ -31,8 +31,10 @@ The project uses four main tables to store data:
     pip install pandas matplotlib
     ```
 
-### Step 1: Clone the Repository
+## Cloning the Repository
 
-Clone this repository to your local machine:
+To clone this repository to your local machine, use the following command:
+
 ```bash
-git clone [https://github.com/syedfiza7546/youtube_growth_analysis](https://github.com/syedfiza7546/Data-Analysis-Projects-/edit/main/youtube_growth_analysis).git
+git clone https://github.com/syedfiza7546/Data-Analysis-Projects-.git
+
