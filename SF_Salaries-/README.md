@@ -1,4 +1,4 @@
-# File: SF_Salaries.ipynb
+# File: San_Fran_sal.ipynb
 
  - **Description**: This Python project loads, cleans, and performs data analysis on the `Salaries.csv` dataset. The project includes handling missing values, removing unnecessary columns, and generating summary statistics to gain insights from the data. The dataset is cleaned to ensure that it only contains relevant information, and the code produces a comprehensive analysis of the data, including a description of each column and count of missing values.
   - **Key Skills**: 
