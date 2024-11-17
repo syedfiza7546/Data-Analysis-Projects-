@@ -21,7 +21,7 @@ The project uses four main tables to store data:
 - **video_performance**: Contains individual video performance metrics like views, likes, and comments.
 - **expenses**: Contains monthly expenses data, including equipment costs, team salary, and ads budget.
 
-## Setup Instructions
+### Setup Instructions
 
 ### Prerequisites
 
@@ -31,7 +31,8 @@ The project uses four main tables to store data:
     pip install pandas matplotlib
     ```
 
-## Cloning the Repository
+## Step 1:
+### Cloning the Repository
 
 To clone this repository to your local machine, use the following command:
 
