@@ -38,6 +38,7 @@ To clone this repository to your local machine, use the following command:
 ```bash
 git clone https://github.com/syedfiza7546/Data-Analysis-Projects-.git
 ```
+
 ## Step 2: Set Up the Database
 Create a new database and tables based on the SQL scripts provided in the sql directory:
 
@@ -48,6 +49,7 @@ USE youtube_growth_analysis;
 
 ## Step 3: Insert Sample Data
 Use the provided SQL queries to insert mock data into the database for testing.
+
 
 
 ## Step 4: Run SQL Queries
