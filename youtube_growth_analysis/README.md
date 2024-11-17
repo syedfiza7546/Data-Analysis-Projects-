@@ -35,4 +35,4 @@ The project uses four main tables to store data:
 
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/syedfiza7546/youtube_growth_analysis.git
+git clone [https://github.com/syedfiza7546/youtube_growth_analysis](https://github.com/syedfiza7546/Data-Analysis-Projects-/edit/main/youtube_growth_analysis).git
