@@ -37,4 +37,26 @@ To clone this repository to your local machine, use the following command:
 
 ```bash
 git clone https://github.com/syedfiza7546/Data-Analysis-Projects-.git
+```
+## Step 2: Set Up the Database
+Create a new database and tables based on the SQL scripts provided in the sql directory:
 
+```
+CREATE DATABASE youtube_growth_analysis;
+USE youtube_growth_analysis;
+```
+
+## Step 3: Insert Sample Data
+Use the provided SQL queries to insert mock data into the database for testing.
+
+## Step 4: Run SQL Queries
+Run the SQL queries to analyze the data and visualize insights:
+
+YouTube Growth Analysis
+Income Breakdown
+Top Video Performance
+Expense-to-Income Ratio
+Upload Frequency and Growth Correlation
+
+## Step 5: Visualize Data
+The Python script visualize.py loads data from CSV files exported from the SQL queries and visualizes the results using matplotlib.
